@@ -170,4 +170,26 @@ a:hover{
 .body{
     background: cadetblue;
 }
-
+.buton{
+    display: inline-block;
+    height: 123px;
+    width: 123px;
+    position: absolute;
+    z-index: 2;
+    top: 292px;
+left: 1488px;
+background: rgba(0, 255, 221, 0.589);
+}
+.true{
+    display: block;
+}
+.buton1{
+    display: inline-block;
+    height: 122px;
+    width: 122px;
+    position: absolute;
+    z-index: 2;
+    top: 290px;
+    left: 292px;
+    background: rgba(0, 255, 221, 0.589);
+}
