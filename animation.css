@@ -1,0 +1,63 @@
+/*@keyframes opacityAnim {
+    from{
+/*opacity: 1;
+    }
+    to{
+/*opacity: 0;
+    }
+}*/
+@keyframes backgroundColor {
+    0%{
+background: red;
+
+    }
+    25%{
+background: purple;
+
+
+    }
+    50%{
+background: blue;
+
+    }
+    75%{
+background: coral;
+
+    }
+    100%{
+background: cyan;
+
+    }
+    from{
+        margin: 1%;
+        height: 100px;
+width: 100px;
+transform: rotate(0deg);
+            }
+         to{
+        margin: 300px;
+        height: 500px;
+width: 500px;
+transform: rotate(600deg);
+         }
+}
+
+
+
+
+
+
+
+
+
+
+
+.animation{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    animation-name: backgroundColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
